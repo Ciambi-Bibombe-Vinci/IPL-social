@@ -6,6 +6,7 @@
 
 #URL project : https://github.com/Ciambi-Bibombe-Vinci/IPL-social.git
 
+Description:
 The project implements an email validation function in TypeScript using TDD.
 The goal is validate an email address.
 
