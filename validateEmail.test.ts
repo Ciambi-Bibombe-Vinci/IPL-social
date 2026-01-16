@@ -13,7 +13,7 @@ describe("Email Checker",() => {
     })
 
     test("it must have text before and after the @ symbol",() =>{
-        const actual = email.otherCheck("@");
+        const actual = email.emailCheck("@");
         expect(actual).toBe(false);
 
     })
