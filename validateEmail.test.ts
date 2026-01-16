@@ -17,4 +17,9 @@ describe("Email Checker",() => {
         expect(actual).toBe(false);
 
     })
+
+    test("must have a point at the domaine and not the last caracter",() => {
+        const actual = email.emailCheck("dzd@..");
+        expect(actual).toBe(false);
+    })
 })
