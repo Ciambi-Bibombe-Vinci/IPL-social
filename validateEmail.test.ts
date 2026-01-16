@@ -11,4 +11,10 @@ describe("Email Checker",() => {
         const actual = email.spaceCheck("Abcde @fghij");
         expect(actual).toBe(false);
     })
+
+    test("it must have text before and after the @ symbol",() =>{
+        const actual = email.otherCheck("@");
+        expect(actual).toBe(false);
+
+    })
 })
